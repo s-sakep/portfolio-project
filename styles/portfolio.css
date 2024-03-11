@@ -29,7 +29,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 130px 20px;
 }
 
 .btn-branding {
@@ -50,7 +50,7 @@ p {
 }
 
 .description-block {
-  padding: 190px 40px;
+  padding: 170px 40px 100px;
 }
 
 .right-arch {
@@ -61,4 +61,21 @@ p {
 .left-arch {
   border-top-left-radius: 400px;
   border-bottom-left-radius: 400px;
+}
+
+@media (max-width: 1023px) {
+  .description-block {
+    padding: 50px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 641px) {
+  h1 {
+    font-size: 40px;
+  }
+  .description-block {
+    padding: 50px 0px;
+    text-align: center;
+  }
 }
