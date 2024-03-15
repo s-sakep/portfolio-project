@@ -49,7 +49,8 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-.description-block {
+.description-block,
+.story-block {
   padding: 170px 40px 100px;
 }
 
@@ -68,6 +69,10 @@ p {
     padding: 50px;
     text-align: center;
   }
+  .story-block {
+    padding: 50px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 641px) {
@@ -75,6 +80,10 @@ p {
     font-size: 40px;
   }
   .description-block {
+    padding: 50px 0px;
+    text-align: center;
+  }
+  .story-block {
     padding: 50px 0px;
     text-align: center;
   }
