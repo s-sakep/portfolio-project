@@ -49,8 +49,7 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-.description-block,
-.story-block {
+.content-block {
   padding: 170px 40px 100px;
 }
 
@@ -64,14 +63,21 @@ p {
   border-bottom-left-radius: 400px;
 }
 
+.work-subtitle {
+  font-size: 24px;
+  text-decoration: underline;
+  text-align: center;
+  padding: 50px 0 20px 0;
+}
+
 @media (max-width: 1023px) {
-  .description-block {
-    padding: 50px;
+  .content-block {
+    padding: 50px 10px;
     text-align: center;
   }
-  .story-block {
-    padding: 50px;
-    text-align: center;
+
+  .content-block p {
+    text-align: left;
   }
 }
 
@@ -79,12 +85,23 @@ p {
   h1 {
     font-size: 40px;
   }
-  .description-block {
-    padding: 50px 0px;
+
+  h2 {
+    line-height: 1.5;
+  }
+
+  .content-block,
+  .coding-projects {
+    padding: 50px 10px;
     text-align: center;
   }
-  .story-block {
-    padding: 50px 0px;
-    text-align: center;
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .content-block p,
+  .coding-projects p {
+    text-align: left;
   }
 }
