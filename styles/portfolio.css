@@ -6,7 +6,8 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: var(--primary-color);
 }
 
@@ -18,12 +19,19 @@ h1 {
 
 h2 {
   font-family: var(--body-font-family);
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: var(--body-font-family);
+  font-size: 18px;
   font-weight: 300;
 }
 
 p {
   line-height: 1.5;
+  font-size: 16px;
 }
 
 .hero {
@@ -53,6 +61,14 @@ p {
   padding: 170px 40px 100px;
 }
 
+.contact-block {
+  padding: 50px 10px;
+  text-align: center;
+}
+.contact-block a {
+  color: var(--primary-color);
+}
+
 .right-arch {
   border-top-right-radius: 400px;
   border-bottom-right-radius: 400px;
@@ -64,8 +80,7 @@ p {
 }
 
 .work-subtitle {
-  font-size: 24px;
-  text-decoration: underline;
+  font-size: 22px;
   text-align: center;
   padding: 50px 0 20px 0;
 }
@@ -88,6 +103,10 @@ p {
 
   h2 {
     line-height: 1.5;
+  }
+
+  .work-subtitle {
+    padding: 0px 10px 30px 10px;
   }
 
   .content-block,
