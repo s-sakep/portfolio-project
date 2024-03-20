@@ -34,6 +34,37 @@ p {
   font-size: 16px;
 }
 
+.nav-logo {
+  max-width: 80px;
+}
+
+nav {
+  padding: 15px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 82px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+nav a:hover,
+nav li.active a {
+  text-decoration: underline;
+  font-style: italic;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -122,5 +153,9 @@ p {
   .content-block p,
   .coding-projects p {
     text-align: left;
+  }
+
+  nav a {
+    text-align: center;
   }
 }
