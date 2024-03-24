@@ -88,7 +88,7 @@ nav li.active a {
 }
 
 .content-block {
-  padding: 170px 40px 100px;
+  padding: 140px 40px 100px;
 }
 
 .contact-block {
@@ -206,7 +206,7 @@ footer .coding-credit a {
   text-decoration: none;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .content-block {
     padding: 50px 10px;
     text-align: center;
@@ -232,7 +232,7 @@ footer .coding-credit a {
 
   .content-block,
   .coding-projects {
-    padding: 50px 10px;
+    padding: 50px 10px 30px;
     text-align: center;
   }
 
