@@ -18,16 +18,40 @@
       src="https://kit.fontawesome.com/41ae05d9be.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair:ital,opsz,wdth,wght@0,5..1200,87.5,300..900;1,5..1200,87.5,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/portfolio.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Sarah Pakes is a front-end developer and communcations specialist. Explore her latest projects."
+    />
+    <title>Sarah Pakes: projects</title>
   </head>
   <body>
+    <div class="container">
+      <a href="/">
+        <nav class="d-flex justify-content-md-between justify-content-center">
+          <img
+            src="/images/s-p-logo.jpg"
+            alt="SP logo"
+            class="nav-logo d-none d-sm-block"
+            title="Homepage"
+          />
+          <ul>
+            <li><a href="/" title="Homepage">Home</a></li>
+            <li>
+              <a href="/about.html" title="About">My story</a>
+            </li>
+            <li class="active"><a href="/work.html" title="Work">My work</a></li>
+            <li><a href="/contact.html" title="Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </a>
+    </div>
     <div class="hero">
       <h1 class="mb-3">My work</h1>
     </div>
@@ -38,7 +62,7 @@
           <div class="col-md-4 mt-3">
             <img
               src="/images/landing-page.jpg"
-              alt=""
+              alt="The British ceramics landing page project displys on a laptop"
               class="img-fluid rounded"
             />
             <h3 class="mt-3">Landing page</h2>
@@ -48,8 +72,9 @@
             </p>
             <a
               href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/001/819/614/original/SheCodes_Basics_final_project.html?1693034954"
-              class="btn btn-branding mb-4"
-              target="_blank"
+              class="btn btn-branding mb-3"
+              target="_blank" 
+              title="Launch landing page"
               >Launch project</a
             >
           </div>
@@ -57,7 +82,7 @@
           <div class="col-md-4 mt-3">
             <img
               src="/images/weather-app.png"
-              alt=""
+              alt="The weather app project displys on an iPad"
               class="img-fluid rounded"
             />
             <h3 class="mt-3">Weather app</h2>
@@ -67,25 +92,95 @@
             </p>
             <a
               href="https://sarahs-weather-forecast.netlify.app/"
-              class="btn btn-branding mb-4"
+              class="btn btn-branding mb-3"
               target="_blank"
+              title="Launch weather project"
               >Launch project</a
             >
           </div>
 
           <div class="col-md-4 mt-3">
-            <img src="images/portfolio.jpg" alt="" class="img-fluid rounded" />
+            <img src="images/portfolio.jpg" alt="The responsive portfolio displys on a phone" class="img-fluid rounded" />
             <h3 class="mt-3">Responsive portfolio</h2>
             <p class="mb-4">
               My online portfolio was built using HTML and CSS. It was the final
               project for the SheCodes Responsive workshop.
             </p>
-            <a href="/" class="btn btn-branding mb-4" target="_blank"
+            <a href="/" class="btn btn-branding mb-3" target="_blank" title="Launch portfolio project"
               >Launch project</a
             >
           </div>
         </div>
+      
+      </div>
+      <div class="page-break d-flex justify-content-center">
+    <i class="fa-solid fa-code"></i>
+     <i class="fa-solid fa-code"></i>
+      <i class="fa-solid fa-code"></i>
+     </div>
+    <div class="certifications"> 
+        <h2 class="work-subtitle">Certifications</h2>
+        <div class="row">
+          <div class="col-md-6 mt-3 mb-3">
+            <img
+              src="/images/shecodes-basics.jpg"
+              alt="SheCodes Basics certificate"
+              class="img-fluid rounded"
+            />
+          </div>
+          <div class="col-md-6 mt-3">
+            <img
+              src="/images/shecodes-plus.jpg"
+              alt="SheCodes Plus certificate"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
       </div>
     </div>
+    <footer>
+      <div class="contact-box">
+        <p class="d-flex justify-content-center">Let's work together</p>
+        <a href="/contact.html" class="btn btn-branding mb-3" title="Contact"
+          >Contact me</a
+        >
+      </div>
+
+      <div class="social-icons d-flex justify-content-center mt-4">
+        <a
+          href="https://www.linkedin.com/in/sarah-pakes/"
+          target="_blank"
+          title="LinkedIn"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/s-sakep" target="_blank" title="GitHub"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <div class="coding-credit d-flex justify-content-center">
+        <p>
+          Coded by
+          <a
+            href="https://github.com/s-sakep"
+            target="_blank"
+            title="GitHub profile"
+            >Sarah Pakes</a
+          >, open sourced on
+          <a
+            href="https://github.com/s-sakep/portfolio-project"
+            target="_blank"
+            title="GitHub project page"
+            >GitHub</a
+          >
+          and hosted by
+          <a
+            href="https://resilient-alfajores-36663c.netlify.app/"
+            target="_blank"
+            title="Netlify"
+            >Netlify</a
+          >.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

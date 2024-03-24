@@ -21,13 +21,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair:ital,opsz,wdth,wght@0,5..1200,87.5,300..900;1,5..1200,87.5,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/portfolio.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Sarah Pakes is a front-end developer and communcations specialist. Get in touch to find out how you can collaborate."
+    />
+    <title>Sarah Pakes: contact</title>
   </head>
   <body>
+    <div class="container">
+      <a href="/">
+        <nav class="d-flex justify-content-md-between justify-content-center">
+          <img
+            src="/images/s-p-logo.jpg"
+            alt="SP logo"
+            class="nav-logo d-none d-sm-block"
+            title="Homepage"
+          />
+          <ul>
+            <li><a href="/" title="Homepage">Home</a></li>
+            <li>
+              <a href="/about.html" title="About">My story</a>
+            </li>
+            <li>
+              <a href="/work.html" title="Work">My work</a>
+            </li>
+            <li class="active">
+              <a href="/contact.html" title="Contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </a>
+    </div>
     <div class="hero">
       <h1 class="mb-3">Get in touch</h1>
     </div>
@@ -35,16 +63,61 @@
       <div class="contact-block">
         <h2 class="mb-3">Email</h2>
         <p class="mb-4">
-          <a href="mailto:sarah@google.com">sarah@pakes.com</a>
+          <a href="mailto:sarah@google.com" title="Email">sarah@pakes.com</a>
         </p>
         <br />
         <h2 class="mb-3">LinkedIn</h2>
         <p class="mb-4">
-          <a href="https://www.linkedin.com/in/sarah-pakes/" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/sarah-pakes/"
+            target="_blank"
+            title="LinkedIn"
             >/sarah-pakes</a
           >
         </p>
       </div>
     </div>
+
+    <footer>
+      <div class="contact-box">
+        <div
+          class="alternative-social-icons d-flex justify-content-center mt-4"
+        >
+          <a
+            href="https://www.linkedin.com/in/sarah-pakes/"
+            target="_blank"
+            title="LinkedIn"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/s-sakep" target="_blank" title="GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <div class="alternative-coding-credit d-flex justify-content-center">
+          <p>
+            Coded by
+            <a
+              href="https://github.com/s-sakep"
+              target="_blank"
+              title="GitHub profile"
+              >Sarah Pakes</a
+            >, open sourced on
+            <a
+              href="https://github.com/s-sakep/portfolio-project"
+              target="_blank"
+              title="GitHub project page"
+              >GitHub</a
+            >
+            and hosted by
+            <a
+              href="https://resilient-alfajores-36663c.netlify.app/"
+              target="_blank"
+              title="Netlify"
+              >Netlify</a
+            >.
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

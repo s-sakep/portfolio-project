@@ -21,11 +21,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair:ital,opsz,wdth,wght@0,5..1200,87.5,300..900;1,5..1200,87.5,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/portfolio.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Sarah Pakes is a front-end developer and communcations specialist. Take a look at her work and get in touch to see how you could collaborate."
+    />
+    <title>Sarah Pakes: front-end developer</title>
   </head>
   <body>
     <div class="container">
@@ -33,14 +37,15 @@
         <nav class="d-flex justify-content-md-between justify-content-center">
           <img
             src="/images/s-p-logo.jpg"
-            alt=""
+            alt="SP logo"
             class="nav-logo d-none d-sm-block"
+            title="Homepage"
           />
           <ul>
-            <li class="active"><a href="/">Home</a></li>
-            <li><a href="/about.html">My story</a></li>
-            <li><a href="/work.html">My work</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+            <li class="active"><a href="/" title="Homepage">Home</a></li>
+            <li><a href="/about.html" title="About">My story</a></li>
+            <li><a href="/work.html" title="Work">My work</a></li>
+            <li><a href="/contact.html" title="Contact">Contact</a></li>
           </ul>
         </nav>
       </a>
@@ -48,7 +53,9 @@
     <div class="hero">
       <h1>Sarah Pakes</h1>
       <h2 class="mb-5">Front-end developer and communications specialist</h2>
-      <a href="/contact.html" class="btn btn-branding">Get in touch</a>
+      <a href="/contact.html" class="btn btn-branding" title="Contact"
+        >Get in touch</a
+      >
     </div>
 
     <div class="container">
@@ -63,12 +70,18 @@
               veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
               ex ea commodo consequat.
             </p>
-            <a href="/about.html" class="btn btn-branding">My story</a>
+            <a href="/about.html" class="btn btn-branding" title="About"
+              >My story</a
+            >
           </div>
         </div>
 
         <div class="col-lg-6 d-none d-lg-block mt-4">
-          <img src="images/sarah.jpg" class="img-fluid right-arch" alt="" />
+          <img
+            src="images/sarah.jpg"
+            class="img-fluid right-arch"
+            alt="Sarah walking on a beach in the winter"
+          />
         </div>
       </div>
       <div class="row">
@@ -76,7 +89,7 @@
           <img
             src="images/weather-app.png"
             class="img-fluid left-arch"
-            alt=""
+            alt="The weather app project displys on an iPad"
           />
         </div>
         <div class="col-lg-6">
@@ -89,7 +102,9 @@
               veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
               ex ea commodo consequat.
             </p>
-            <a href="/work.html" class="btn btn-branding">My work</a>
+            <a href="/work.html" class="btn btn-branding" title="Work"
+              >My work</a
+            >
           </div>
         </div>
       </div>
@@ -98,16 +113,45 @@
     <footer>
       <div class="contact-box">
         <p class="d-flex justify-content-center">Let's work together</p>
-        <a href="/contact.html" class="btn btn-branding mb-3">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding mb-3" title="Contact"
+          >Contact me</a
+        >
       </div>
 
       <div class="social-icons d-flex justify-content-center mt-4">
-        <a href="https://www.linkedin.com/in/sarah-pakes/" target="_blank"
+        <a
+          href="https://www.linkedin.com/in/sarah-pakes/"
+          target="_blank"
+          title="LinkedIn"
           ><i class="fa-brands fa-linkedin"></i
         ></a>
-        <a href="https://github.com/s-sakep" target="_blank"
+        <a href="https://github.com/s-sakep" target="_blank" title="GitHub"
           ><i class="fa-brands fa-github"></i
         ></a>
+      </div>
+      <div class="coding-credit d-flex justify-content-center">
+        <p>
+          Coded by
+          <a
+            href="https://github.com/s-sakep"
+            target="_blank"
+            title="GitHub profile"
+            >Sarah Pakes</a
+          >, open sourced on
+          <a
+            href="https://github.com/s-sakep/portfolio-project"
+            target="_blank"
+            title="GitHub project page"
+            >GitHub</a
+          >
+          and hosted by
+          <a
+            href="https://resilient-alfajores-36663c.netlify.app/"
+            target="_blank"
+            title="Netlify"
+            >Netlify</a
+          >.
+        </p>
       </div>
     </footer>
   </body>
